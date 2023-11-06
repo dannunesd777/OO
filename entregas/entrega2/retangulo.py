@@ -1,13 +1,14 @@
-# Função para calcular a área e o perímetro de um retangulo
+# Calcular a área e o perímetro de um retangulo
 def calcular_retangulo():
-    lado = float(input("Digite o valor do lado do retangulo: "))
+    base = float(input("Digite o valor da base do retangulo: "))
+    altura = float(input("Digite o valor da altura do retangulo: "))
 
-    # Função para calcular a área do retangulo
+    # Calcular a área do retangulo
     def area_retangulo():
         area = base * altura
         return area
 
-    # Função para calcular o perímetro do retangulo
+    # Calcular o perímetro do retangulo
     def perimetro_retangulo():
         perimetro = 4 * (base + altura)
         return perimetro
