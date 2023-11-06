@@ -1,0 +1,20 @@
+import Circulo
+import Cubo
+import Quadrado
+import Retangulo
+import Triangulo
+
+
+
+medidas.area_circulo
+medidas.perimetro_circulo
+medidas.area_cubo
+medidas.volume_cubo
+medidas.area_quadrado
+medidas.perimetro_quadrado
+medidas.area_retangulo
+medidas.perimetro_retangulo
+medidas.area_triangulo
+medidas.perimetro_triangulo
+
+terminal results

@@ -1,0 +1,12 @@
+Retangulo
+
+Variaveis
+
+area
+perimetro 
+
+def area_retangulo ()
+    area_retangulo = base*altura
+
+def perimetro_retangulo ()
+    perimetro_retangulo = 2*(base+altura)

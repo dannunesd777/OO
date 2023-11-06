@@ -1,0 +1,12 @@
+Quadrado 
+
+Variaveis
+
+area
+perimetro 
+
+def area_quadrado ()
+    area_quadrado = lado*lado
+
+def perimetro_quadrado ()
+    perimetro_quadrado = 4*lado

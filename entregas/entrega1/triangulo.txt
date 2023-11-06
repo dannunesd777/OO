@@ -1,0 +1,12 @@
+Triangulo
+
+Variaveis
+
+area
+perimetro
+
+def area_triangulo ()
+    area_triangulo = (altura*base)/2
+
+def perimetro_triangulo ()
+    perimetro_triangulo = lado1 + lado2 + lado3

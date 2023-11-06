@@ -1,0 +1,16 @@
+Circulo
+
+Variaveis 
+
+area
+perimetro
+
+pi = 3,1415926
+
+def area_circulo (raio)
+    area_circulo = pi * (raio**2)
+    return area
+
+def perimetro_circulo (raio)
+    perimetro_circulo = pi * 2 * raio
+    return perimetro

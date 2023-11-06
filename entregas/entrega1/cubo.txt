@@ -1,0 +1,12 @@
+Cubo
+
+Variaveis
+
+area
+volume
+
+def area_cubo ()
+    area_cubo = 6* (lado*lado)
+
+def volume_cubo ()
+    volume_cubo = lado*lado*lado
