@@ -1,4 +1,6 @@
+class Cubo:
 # Calcular a área e o volume do cubo
+    @staticmethod
 def calcular_cubo():
     lado = float(input("Digite o valor do lado do cubo: "))
 

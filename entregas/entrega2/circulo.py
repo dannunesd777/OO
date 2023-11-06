@@ -1,6 +1,7 @@
 import math
 
 # Calcular a área e o perímetro do círculo
+@staticmethod
 def calcular_circulo():
     pi = 3.1415926
     raio = float(input("Digite o raio do círculo: "))

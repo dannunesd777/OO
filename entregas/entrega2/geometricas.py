@@ -6,21 +6,21 @@ def main():
         print("2. Calcular área e o volume do cubo")
         print("3. Calcular área e o perímetro do quadrado")
         print("4. Calcular área e o perímetro do retangulo")
-        print("5. Calcular área e o 1perímetro do triângulo")
+        print("5. Calcular área e o perímetro do triângulo")
         print("6. Sair")
 
         opcao = int(input("Digite o número da opção desejada: "))
 
         if opcao == 1:
-            calcular_circulo()
+            Circulo.calcular()
         elif opcao == 2:
-            calcular_cubo()
+            Cubo.calcular()
         elif opcao == 3:
-            calcular_quadrado()
+            Quadrado.calcular()
         elif opcao == 4:
-            calcular_retangulo()
+            Retangulo.calcular()
         elif opcao == 5:
-            calcular_triangulo()
+            Triangulo.calcular()
         elif opcao == 6:
             break
         else:

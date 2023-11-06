@@ -1,13 +1,14 @@
-# Função para calcular a área e o perímetro de um quadrado
-def calcular_quadrado():
+class Quadrado:
+    @staticmethod
+def Quadrado ():
     lado = float(input("Digite o valor do lado do quadrado: "))
 
-    # Função para calcular a área do quadrado
+    # Calcular a área do quadrado
     def area_quadrado():
         area = lado * lado
         return area
 
-    # Função para calcular o perímetro do quadrado
+    # Calcular o perímetro do quadrado
     def perimetro_quadrado():
         perimetro = 4 * lado
         return perimetro
