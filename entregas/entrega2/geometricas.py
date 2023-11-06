@@ -1,12 +1,12 @@
-# Função principal que chama as funções de cálculo com base na escolha do usuário
+# Função principal 
 def main():
     while True:
-        print("Escolha uma opção:")
-        print("1. Calcular área e perímetro de um círculo")
-        print("2. Calcular área e volume de um cubo")
-        print("3. Calcular área e perímetro de um quadrado")
-        print("4. Calcular área e perímetro de um retangulo")
-        print("5. Calcular área e perímetro de um triângulo")
+        print("Escolha uma das opções:")
+        print("1. Calcular área e o perímetro do círculo")
+        print("2. Calcular área e o volume do cubo")
+        print("3. Calcular área e o perímetro do quadrado")
+        print("4. Calcular área e o perímetro do retangulo")
+        print("5. Calcular área e o 1perímetro do triângulo")
         print("6. Sair")
 
         opcao = int(input("Digite o número da opção desejada: "))
