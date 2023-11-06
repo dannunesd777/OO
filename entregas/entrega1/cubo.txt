@@ -7,6 +7,9 @@ volume
 
 def area_cubo ()
     area_cubo = 6* (lado*lado)
+    return area
+
 
 def volume_cubo ()
     volume_cubo = lado*lado*lado
+    return perimetro

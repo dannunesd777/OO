@@ -7,6 +7,8 @@ perimetro
 
 def area_triangulo ()
     area_triangulo = (altura*base)/2
-
+    return area
+    
 def perimetro_triangulo ()
     perimetro_triangulo = lado1 + lado2 + lado3
+    return perimetro

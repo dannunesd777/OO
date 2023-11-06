@@ -7,6 +7,8 @@ perimetro
 
 def area_quadrado ()
     area_quadrado = lado*lado
+    return area
 
 def perimetro_quadrado ()
     perimetro_quadrado = 4*lado
+    return perimetro
