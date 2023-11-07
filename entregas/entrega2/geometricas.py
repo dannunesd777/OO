@@ -1,4 +1,10 @@
-# Função principal 
+# Função principal
+import Circulo
+import Cubo
+import Quadrado
+import Retangulo
+import Triangulo
+
 def main():
     while True:
         print("Escolha uma das opções:")
@@ -12,15 +18,15 @@ def main():
         opcao = int(input("Digite o número da opção desejada: "))
 
         if opcao == 1:
-            Circulo.calcular()
+            Circulo.calcular_circulo()
         elif opcao == 2:
-            Cubo.calcular()
+            Cubo.calcular_cubo()
         elif opcao == 3:
-            Quadrado.calcular()
+            Quadrado.calcular_quadrado()
         elif opcao == 4:
-            Retangulo.calcular()
+            Retangulo.calcular_retangulo()
         elif opcao == 5:
-            Triangulo.calcular()
+            Triangulo.calcular_triangulo()
         elif opcao == 6:
             break
         else:
